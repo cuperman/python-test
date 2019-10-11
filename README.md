@@ -5,5 +5,6 @@
 ```bash
 pipenv install
 npm install
-npm run cdk -- synth
+npm run cdk -- version
+npm run cdk -- help
 ```
