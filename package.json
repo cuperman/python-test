@@ -3,6 +3,6 @@
     "cdk": "cdk"
   },
   "devDependencies": {
-    "cdk": "1.10.0"
+    "aws-cdk": "1.10.0"
   }
 }
