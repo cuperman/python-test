@@ -18,3 +18,7 @@ jobs:
       # install node dependencies (for CDK)
       - run: node --version
       - run: npm install
+
+      # run cdk commands
+      - run: npm run cdk -- --version
+      - run: npm run cdk -- --help
