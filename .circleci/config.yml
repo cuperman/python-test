@@ -1,0 +1,14 @@
+# Reference https://circleci.com/docs/2.0/language-python/ for more details
+#
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/python:latest
+    working_directory: ~/repo
+
+    steps:
+      - checkout
+      - run: python --version
+      - run: pipenv --version
+      - run: pipenv install --dev
